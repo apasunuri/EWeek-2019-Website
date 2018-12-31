@@ -3,52 +3,176 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>EWeek 2019</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <style>
+      .bg-dark {
+        transition:750ms ease;
+        background:transparent !important;
+      }
+      .bg-dark.scrolled {
+        background:#ffffff !important;
+      }
+      .navbar-size {
+        font-size: 21px;
+      }
+      .paddingbottom {
+        padding: 0%;
+      }
+      .navbar-nav {
+        flex-flow: row nowrap;
+      }
+      .navbar {
+        flex-flow: row nowrap;
+        display: inline-flex;
+      }
+    </style>
+    <title>UF Engineers' Week 2019</title>
   </head>
   <body class="bg-info">
-    <div>
-      <nav class="navbar fixed-top navbar-toggleable-xl navbar-inverse">
-        <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
+    <nav class="navbar navbar-light bg-dark navbar-expand-md fixed-top">
+      <div class="container">
+        <div class="navbar-brand">EWeek</div>
+        <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#menu" aria-controls="menu"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link navbar-size mr-3" href="#about"><strong>ABOUT</strong></a>
+            <a class="nav-item nav-link navbar-size mr-3" href="#"><strong>EVENTS</strong></a>
+            <a class="nav-item nav-link navbar-size mr-3" href="#"><strong>DIRECTORS</strong></a>
+            <a class="nav-item nav-link navbar-size mr-3" href="#"><strong>SPONSORS</strong></a>
+            <a class="nav-item nav-link navbar-size" href="#"><strong>SIGN UP</strong></a>
+          </div>
         </div>
-      </nav>
-    </div>
-    <div class="jumbotron jumbotron-fluid text-center bg-white" id="title">
+      </div>
+    </nav>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container mt-5 pb-0">
+        <div class="row text-center no-gutters">
+          <section class="col-md-6">
+            <h1 class="display-4 text-left"><strong>000 DAYS</strong></h1>
+            <h1 class="display-4 text-left"><strong>000 HOURS</strong></h1>
+            <h1 class="display-4 text-left"><strong>000 MINUTES</strong></h1>
+            <h1 class="display-4 text-left"><strong>000 SECONDS</strong></h1>
+            <h1 class="display-4 text-left"><strong>TO KICK IT</strong></h1>
+            <h1 class="display-4 text-left"><strong>INTO GEAR</strong></h1>
+          </section>
+          <section class="col-md-6">
+            <img src="img/logo.png" alt="UF EWeek 2019" height="400px" width="400px" />
+            <h2 class="mt-3">EWEEK 2019<br>KICK IT INTO GEAR</h2>
+            <h3>February 18 - 22 | University of Florida</h3>
+          </section>
+        </div>
+      </div>
+    </header>
+    <div class="container mt-5">
       <div class="row">
-        <section class="col-md-4">
-          <h1 class="display-4">000 Hours</h1>
-          <h1 class="display-4">000 Minutes</h1>
-          <h1 class="display-4">000 Seconds</h1>
+        <section class="col-12 mb-3" id="about">
+          <h1 class="text-center">ABOUT</h1>
         </section>
-        <section class="col-md-8">
-          <h1 class="display-1">EWeek 2019</h1>
+        <section class="col-md-6">
+          <h1 class="display-1 align-middle">Images</h1>
+        </section>
+        <section class="col-md-6">
+          <h2>THE WHAT</h2>
+          <p>Engineers’ Week consists
+             of various, individual events
+             hosted over the course of a
+             week in February. These events range from
+             E-Fair, the biggest showcase
+             of engineering disciplines in
+             Florida, to E-Fest, complete
+             with a concert and other fun
+             games geared to the interest
+             of students at UF. All events
+             are free and open to the
+             public.</p>
+            <h2>THE WHO</h2>
+            <p>Each year, approximately
+               40 different societies on
+               campus unite to plan and
+               execute this event. Though
+               the event is hosted by
+               the Benton Engineering
+               Council, the event intends
+               on engaging a diverse
+               assortment of groups
+               including general public to
+               elementary school children
+               to students at UF of all
+               majors and interests</p>
+              <h2>THE WHY</h2>
+              <p>Donators will receive
+                 different benefits depending
+                 on the donation. These
+                 vary from being listed as a
+                 sponsor, to having a team
+                 member assigned as your
+                 liason. We have always
+                 pushed for sustainability,
+                 even before Engineers’
+                 Week 2012 was the first
+                 certified Green Event in
+                 University of Florida’s
+                 history, All contributions
+                 aid us in this mission.</p>
+        </section>
+        <section class="col-12 mt-3">
+          <h1 class="text-center">KICK IT INTO GEAR</h1>
+          <br>
+          <h1 class="text-center">VIDEO</h1>
         </section>
       </div>
     </div>
-    <div class="container" id="info">
-      <div class="row">
-        <section class="col-sm-4 text-center">
-          <h4>What is EWeek?</h4>
-          <p>Informationjalsdf</p>
-        </section>
-        <section class="col-sm-4 text-center">
-          <h4>What is EWeek?</h4>
-          <p>Informationjalsdf</p>
-        </section>
-        <section class="col-sm-4 text-center">
-          <h4>What is EWeek?</h4>
-          <p>Informationjalsdf</p>
-        </section>
+    <hr />
+    <footer class="page-footer">
+      <div class="footer-copyright container">
+        <div class="row justify-content-center">
+          <section class="col-sm-6 text-center">
+            <p><strong>&copy; 2019 UNIVERSITY OF FLORIDA ENGINEERS' WEEK</strong></p>
+          </section>
+          <section class="col-sm-6 text-center">
+            <div class="row mb-2 no-gutters">
+              <div class="col-3">
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="img/facebooklogo.png" alt="UF EWeek Facebook"
+                  height="40px" width="40px" />
+                </a>
+              </div>
+              <div class="col-3 border">
+                <img src="img/twitterlogo.png" alt="UF EWeek Twitter"
+                 height="40px" width="40px" />
+              </div>
+              <div class="col-3">
+                <img src="img/instagramlogo.png" alt="UF EWeek Instagram"
+                 height="40px" width="40px" />
+              </div>
+              <div class="col-3">
+                <img src="img/snapchatlogo.png" alt="UF EWeek Snapchat"
+                 height="40px" width="40px" />
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 55);
+      });
+    </script>
   </body>
 </html>
