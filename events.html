@@ -2,20 +2,17 @@
 <html lang="en">
   <head>
     <style>
-      .googleCal {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 30px;
-      width: 90%;
-      height: 0;
-      overflow: hidden;
+      table {
+        table-layout: fixed;
+        width: 100%;
+        height: 100%;
+        padding: 0;
       }
-      .googleCal iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      
+      td {
+        width: 250px;
+        height: 150px;
+        overflow: hidden;
       }
     </style>
     <title>Events</title>
@@ -35,25 +32,21 @@
       <h1 class="display-1">E-Week Event Calendar</h1>
     </div>
 
-    <!--<div class="row justify-content-center">
-      <div class = "googleCal">
-        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=2sq8b62m1po9bhkmcc6iohqnuc%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-      </div>
-    </div> -->
-
     <div class="container table-responsive-sm">
       <table align="center" class="table table-bordered border">
         <tr>
-          <th colspan="7" class="text-center"><h3>FEBRUARY 2019</h3></th>
+          <th class="text-center" colspan="7">
+            <h1>FEBRUARY 2019</h1>
+          </th>
         </tr>
-        <tr class="text-center">
-          <td>SUN</td>
-          <td>MON</td>
-          <td>TUE</td>
-          <td>WED</td>
-          <td>THU</td>
-          <td>FRI</td>
-          <td>SAT</td>
+        <tr class="bg-white">
+            <th class="text-center">SUN</th>
+            <th class="text-center">MON</th>
+            <th class="text-center">TUE</th>
+            <th class="text-center">WED</th>
+            <th class="text-center">THU</th>
+            <th class="text-center">FRI</th>
+            <th class="text-center">SAT</th>
         </tr>
         <tr>
           <td></td>
@@ -77,12 +70,12 @@
           <td>10</td>
           <td>11
             <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                  <i class="fas fa-calendar-alt"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#EFairModal">
+                  <i class="fas fa-calendar-alt"> E-Fair</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="EFairModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -118,12 +111,12 @@
           </td>
           <td>12
             <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                  <i class="fas fa-calendar-alt"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#EFairModal">
+                  <i class="fas fa-calendar-alt"> E-Fair</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="EFairModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -138,6 +131,14 @@
                       When: February 11 - February 12<br>
                       Where: Reitz<br>
                       Description:
+                      The Engineering Fair is targeted
+                      towards the youngest generation
+                      of students, namely those in grades
+                      K-12. With attendance of over 2,000
+                      students from 30 different counties,
+                      companies are invited to present
+                      their story and experience with the
+                      generation of the future.
                     </div>
                     
                     <!-- Modal footer -->
@@ -150,12 +151,12 @@
           </td>
           <td>13
             <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                  <i class="fas fa-calendar-alt"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#ESLModal">
+                  <i class="fas fa-calendar-alt"> ESL</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="ESLModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -182,12 +183,12 @@
 
               <br>
               <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                  <i class="fas fa-calendar-alt"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#ELFModal">
+                  <i class="fas fa-calendar-alt"> ELF</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="ELFModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -220,12 +221,12 @@
 
               <br>
               <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                <i class="fas fa-volleyball-ball"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#DodgeModal">
+                <i class="fas fa-volleyball-ball"> Kickoff Dodgeball</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="DodgeModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -255,12 +256,12 @@
           </td>
           <td>14
             <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                <i class="fas fa-bowling-ball"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#BowlingModal">
+                <i class="fas fa-bowling-ball"> Bowling w/ Faculty</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="BowlingModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -295,12 +296,12 @@
           </td>
           <td>15
             <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                  <i class="fas fa-calendar-alt"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#EFestModal">
+                  <i class="fas fa-calendar-alt"> E-Fest</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="EFestModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -339,12 +340,12 @@
         <tr>
           <td>17
             <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                <i class="fas fa-briefcase-medical"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#FitModal">
+                <i class="fas fa-briefcase-medical"> Fitness Event</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="FitModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
@@ -371,12 +372,12 @@
           </td>
           <td>18
             <div class="row"></div>
-              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#myModal">
-                  <i class="fas fa-calendar-alt"></i>
+              <button type="button" class="btn btn-rounded btn-info btn-sm" data-toggle="modal" data-target="#ClosingModal">
+                  <i class="fas fa-calendar-alt"> Closing Ceremony</i>
               </button>
             
               <!-- The Modal -->
-              <div class="modal fade" id="myModal">
+              <div class="modal fade" id="ClosingModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                   
